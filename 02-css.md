@@ -65,7 +65,7 @@ by linking to it in the head:
 <!DOCTYPE html>
 <html> 
 	<head> 
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head> 
 ~~~
 
@@ -88,3 +88,5 @@ In the body, we can use the class that we just created:
 > Try adding in enough text so that it wraps over multiple lines, and then set the width of the 'div' to different values. 
 > Try setting the background color of the 'div' element. 
 > If you like, play with the 'title' class as well, until you like how it looks. 
+
+We can check out how our elements are styled in the developer tools. To get to them, right-click on any element on the page and select 'Inspect element'. The developer tools should open and you should be in the 'Elements' tab. Here, you can navigate through the html file and inspect css properties at the same time. 

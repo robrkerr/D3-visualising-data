@@ -52,7 +52,7 @@ created:
 var xAxis = d3.svg.axis().orient("bottom").scale(xScale);
 ~~~
 
-We also want to orient it horizontally, at the bottom of our canvas.
+`orient()` influences the orientation of the axis and the position of the ticks. We will still need to position it inside the canvas. 
 
 So far, the xAxis exists, but it's not actually showing up anywhere on the page.
 To push the axis to our canvas, we create a new group element (using `.append`).
@@ -113,7 +113,7 @@ arbitrary number... for now.
 
 
 > # A new dimension {.challenge}
-> Change the code so that the radius of the circles represents the population. First, create a 'sqrt' scale with a minimum of 0 and a maximum of 5e8. The range should be between 0 and 40. Also, don't forget to include a mapping function for the scale for population. 
+> Change the code so that the radius of the circles represents the population. First, create a 'sqrt' scale with a minimum of 0 and a maximum of 5e8. The range should be between 0 and 40. 
 
 
 <iframe src="http://isakiko.github.io/D3-visualising-data/code/index08.html" width="1000" height="600"></iframe>

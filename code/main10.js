@@ -93,7 +93,7 @@ d3.json("nations.json", function(nations) {
     .attr("y", 6)
     .attr("dy", ".75em")
     .attr("transform", "rotate(-90)")
-    .text("life expectancy (years)");;
+    .text("life expectancy (years)");
 
 
 
